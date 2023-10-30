@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "833938596257",
+    "firebase_url": "https://dungan-lakaw-project-default-rtdb.firebaseio.com",
+    "project_id": "dungan-lakaw-project",
+    "storage_bucket": "dungan-lakaw-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833938596257:android:aa77586d48c708be81ebe0",
+        "android_client_info": {
+          "package_name": "com.example.dungan_lakaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuUI2QUKCPeCneO6VAEgVlWd7kTWNU1zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833938596257:android:13bfdf1a7ab97f3e81ebe0",
+        "android_client_info": {
+          "package_name": "com.example.dunganlakaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuUI2QUKCPeCneO6VAEgVlWd7kTWNU1zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833938596257:android:37a0c556415c0d0581ebe0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuUI2QUKCPeCneO6VAEgVlWd7kTWNU1zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833938596257-pke68s6lpjt935vhk3lhvio7ceb50id5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

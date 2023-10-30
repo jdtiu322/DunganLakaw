@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MessageText">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <!-- Add more style attributes as needed -->
+</style>
+
+    <style name="MessageEditText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <!-- Add more style attributes as needed -->
+    </style>
+
+    <style name="SendButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- Add more style attributes as needed -->
+    </style>
+</resources>

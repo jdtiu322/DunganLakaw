@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003782"
+    tools:context=".HomeFragment"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-18dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="893dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-18dp">
+
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/locationbtn"
+            app:layout_constraintBottom_toTopOf="@+id/locationText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hotel"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Location"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/location"
+            app:layout_constraintStart_toStartOf="@id/location"
+            app:layout_constraintEnd_toEndOf="@id/location" />
+
+
+        <ImageButton
+            android:id="@+id/transport"
+            android:layout_width="104dp"
+            android:layout_height="103dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/transportbtn"
+            app:layout_constraintBottom_toTopOf="@+id/transportText"
+            app:layout_constraintEnd_toStartOf="@+id/journal"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/transportText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport Picker"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@id/transport"
+            app:layout_constraintStart_toStartOf="@id/transport"
+            app:layout_constraintTop_toBottomOf="@id/transport" />
+
+
+        <ImageButton
+            android:id="@+id/journal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/journalbtn"
+            app:layout_constraintBottom_toTopOf="@+id/journalText"
+            app:layout_constraintEnd_toStartOf="@+id/hotel"
+            app:layout_constraintStart_toEndOf="@+id/transport"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/journalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journal"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/journal"
+            app:layout_constraintStart_toStartOf="@id/journal"
+            app:layout_constraintEnd_toEndOf="@id/journal" />
+
+
+        <ImageButton
+            android:id="@+id/hotel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hotelbtn"
+            app:layout_constraintBottom_toTopOf="@+id/hotelText"
+            app:layout_constraintEnd_toStartOf="@+id/location"
+            app:layout_constraintStart_toEndOf="@+id/journal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/hotelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotel Suggestion"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/hotel"
+            app:layout_constraintStart_toStartOf="@id/hotel"
+            app:layout_constraintEnd_toEndOf="@id/hotel" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineStart"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineCenter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineEnd"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/forumrecycler"
+            android:layout_width="404dp"
+            android:layout_height="722dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.759" />
+
+        <ImageButton
+            android:id="@+id/btnaddpost"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:background="#00000000"
+            android:clickable="true"
+            android:src="@drawable/addpostbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.948"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.754" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

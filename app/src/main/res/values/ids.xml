@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tab_layout" type="id" />
+    <item name="fullname" type="id" />
+    <item name="age" type="id" />
+    <item name="address" type="id" />
+    <item name="repassword" type="id" />
+    <item name="register" type="id" />
+    <item name="logIn" type="id" />
+    <item name="transport" type="id" />
+</resources>

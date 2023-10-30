@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003782"
+    tools:context=".MessagesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/messageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/messageTextView"
+                style="@style/MessageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:
+                android:background="@drawable/message_background"
+                android:padding="8dp"
+                android:text="Hello, how are you?"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/messageTextView2"
+                style="@style/MessageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/message_background"
+                android:padding="8dp"
+                android:text=""
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-8dp"
+                android:text=""/>
+
+            <!-- Add more TextViews for additional messages if needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/messageEditText"
+            style="@style/MessageEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:hint="Type your message..."
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/sendButton"
+            style="@style/SendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#91BBE6"
+            android:fontFamily="@font/glacialindifferencebold"
+            android:textSize="40px"
+            app:cornerRadius="10dp"
+            android:text="Send" />
+
+    </LinearLayout>
+
+</FrameLayout>
